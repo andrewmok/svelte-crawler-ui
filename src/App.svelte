@@ -56,7 +56,7 @@
 
 <div class="app">
     <Popup
-        isVisible={isDeviceAddPopupOpened || true}
+        isVisible={isDeviceAddPopupOpened}
         onClose={closeAddDevicePopup}
     >
         <Input label="IP Address:" bind:model={address}/>
